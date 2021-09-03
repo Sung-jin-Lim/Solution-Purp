@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+  background-color: #e0e8ff;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+  font-family: "Red Hat Display";
+}
+
+/* box div */
+.box {
+  background-color: rgb(255, 255, 255);
+  margin: 50px auto;
+  width: 400px;
+  border-radius: 10px;
+
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+/* button */
+button {
+  color: white;
+  background-color: rgb(55, 42, 222);
+  width: 100%;
+  border: 0px solid #ccc;
+  border-radius: 10px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: 0px 10px 30px #4444dd5e;
+}
+
+/* plan div */
+.plan {
+  color: rgb(0, 0, 0);
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+img {
+  margin-right: 20px;
+}
+/* padding to space out the divs */
+.padded {
+  margin-bottom: 20px;
+}
+
+/* left  */
+.left {
+  text-align: left;
+}
+
+/* right */
+.right {
+  text-align: right;
+  color: rgb(55, 42, 222);
+  font-weight: 700;
+  text-decoration: underline;
+  position: relative;
+  right: 0px;
+}
+
+/* small */
+.big {
+  color: hsl(224, 23%, 55%);
+}
+
+/* fonts */
+.text {
+  padding: 30px 50px;
+}
+
+h4 {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.bold {
+  font-weight: 600;
+}
+
+/* header image */
+.image {
+  background-image: url(/images/illustration-hero.svg);
+  height: 215px;
+  width: 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+}
+
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+  margin: auto 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* background */
